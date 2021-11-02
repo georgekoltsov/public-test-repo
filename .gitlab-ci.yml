@@ -6,3 +6,7 @@ test:
   script: echo
   stage: test
   needs: [build]
+
+deploy:
+  script: echo
+  stage: deploy
