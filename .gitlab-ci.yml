@@ -10,4 +10,8 @@ test:
 deploy:
   script: echo
   stage: deploy
+  
+another:
+  script: echo
+  stage: another
 
